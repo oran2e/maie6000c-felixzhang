@@ -8,8 +8,3 @@
 - Rebuilt API image with `docker compose build --no-cache api`.
 - Executed containerized unit tests via `docker compose run --rm --no-deps api pytest -q tests/unit`.
 - Confirmed all unit tests passed successfully without regressions.
-
-## 3. AI Use Statement
-- Tool: Gemini (AI Assistant)
-- What it was used for: Repository workflow tracing, troubleshooting Zsh syntax errors, and guiding TDD development loop.
-- What was verified: Ran and verified all containerized pytest executions locally and manually confirmed PR merges.
